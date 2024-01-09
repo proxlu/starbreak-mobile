@@ -110,7 +110,7 @@ class MainActivity : ComponentActivity(), LifecycleObserver {
         handleVolume()
     }
 
-    // Estrutura Principal
+    // Estrutura da webview
     @Composable
     fun WebViewContent() {
         val webViewHeight = 768.dp
@@ -189,6 +189,7 @@ class MainActivity : ComponentActivity(), LifecycleObserver {
         }
     }
 
+    
     @Composable
     fun ShowKeyboardButton() {
         val context = LocalContext.current
@@ -242,6 +243,7 @@ class MainActivity : ComponentActivity(), LifecycleObserver {
         }
     }
 
+    // Estrutura do joystick
     @Composable
     fun JoyStickContent() {
 
