@@ -110,6 +110,7 @@ class MainActivity : ComponentActivity(), LifecycleObserver {
         handleVolume()
     }
 
+    // Estrutura Principal
     @Composable
     fun WebViewContent() {
         val webViewHeight = 768.dp
